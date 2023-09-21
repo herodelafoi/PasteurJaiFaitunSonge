@@ -1,0 +1,132 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image:url(3ffac2c6-338d-4e15-95d4-17413e7fbe7c.jpeg);
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+
+.container {
+
+    max-width: 650px;
+    margin: 0 auto;
+    margin-top:130px;
+    margin-bottom: 60px;
+    padding: 3%;
+    background-color: #ffffffc7;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    animation: apparition;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+}
+@keyframes apparition{
+    0%{opacity: 0%;}
+    100%{opacity: 100%;}
+}
+h2{
+    color: red;
+    font-size: 35px;
+    font-family: impact;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    margin-bottom: 20px;
+}
+span{
+    color: rgba(243, 7, 7, 0.925);
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+
+    margin-top: 10px;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.inp1 {
+    
+    outline: none;
+    margin-top: 4px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border:none;
+    font-size: 16px;
+    border-bottom: solid 2px #03030872;
+    background-color:transparent;
+    box-shadow: 1px 1px 4px rgba(2, 3, 3, 0.607);
+   
+}
+.inp2 {
+   
+    outline: none;
+    margin-top: 4px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border:none;
+    font-size: 16px;
+    border-bottom: solid 2px #03030872;
+    background-color:transparent;
+    box-shadow: 1px 1px 4px rgba(2, 3, 3, 0.607);
+   
+}
+a{
+    margin-right: 90px;
+    margin-top: 4px;
+    padding: 10px 30px;
+    margin-bottom: 15px;
+    border-radius: 2px;
+    border: 2px solid red;
+    text-align: center;
+    margin-left: 110px;
+    text-decoration: none;
+    color: #070101;
+    font-family: Arial,serif;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: 3.525px;
+    text-transform: capitalize;
+}
+a:hover{
+    
+    margin-right: 90px;
+    background-color: red;
+    margin-top: 4px;
+    padding: 10px 30px;
+    margin-bottom: 15px;
+    border-radius: 2px;
+    border: 2px solid red;
+    text-align: center;
+    margin-left: 110px;
+    text-decoration: none;
+    color: #fcfbfb;
+    font-family: Arial,serif;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: 3.525px;
+    text-transform: capitalize;
+    transition-timing-function: ease-in;
+    transition: 1.5s;
+   
+}
+
+p{
+    text-align:center;
+    color:red;
+    text-decoration:underline;
+    margin-top:6px;
+}
